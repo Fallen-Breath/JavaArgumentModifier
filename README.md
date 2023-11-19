@@ -36,7 +36,7 @@ Then, this tool will modify the CLI args according to the config file (at `java_
   // keys are regex, values are the replacement
   "runArgs": {
     // remove the "-b" arg
-    "-b": null,
+    "^-b$": null,
   }
 }
 ```
